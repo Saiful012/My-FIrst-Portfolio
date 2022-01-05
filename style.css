@@ -1,12 +1,14 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+h1 {font-size: 40px;
+}
 h1 span {
     color: tomato;
 }
 .top-area{
 width: 50%;
-flex-direction: column;
+display: flex;
 }
 .click-button{
    color: white;
@@ -16,5 +18,5 @@ flex-direction: column;
    padding: 10px;
 }
 .half-width{
-    width: 40%;
+    width: 30%;
 }
